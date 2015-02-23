@@ -1,0 +1,35 @@
+---
+title: "Ad-stock Presentation"
+author: "G. Garrido"
+date: "Sunday, February 22, 2015"
+output: ioslides_presentation
+---
+
+## Slide 1
+
+
+
+```{r}
+author("mydesk")
+slidify("index.Rmd")
+#publish(user = "gredoy", repo = "DataProduct", host = 'github')
+```
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
